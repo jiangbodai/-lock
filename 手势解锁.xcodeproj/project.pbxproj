@@ -14,6 +14,7 @@
 		945B84A11AA601AA004992DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945B84A01AA601AA004992DA /* Images.xcassets */; };
 		945B84A41AA601AA004992DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945B84A21AA601AA004992DA /* LaunchScreen.xib */; };
 		945B84B01AA601AA004992DA /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 945B84AF1AA601AA004992DA /* ____Tests.m */; };
+		945B84BB1AA601D4004992DA /* RHTouchLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 945B84BA1AA601D4004992DA /* RHTouchLockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		945B84A91AA601AA004992DA /* 手势解锁Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势解锁Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		945B84AE1AA601AA004992DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		945B84AF1AA601AA004992DA /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		945B84B91AA601D4004992DA /* RHTouchLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTouchLockView.h; sourceTree = "<group>"; };
+		945B84BA1AA601D4004992DA /* RHTouchLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTouchLockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		945B84921AA601A9004992DA /* 手势解锁 */ = {
 			isa = PBXGroup;
 			children = (
+				945B84B91AA601D4004992DA /* RHTouchLockView.h */,
+				945B84BA1AA601D4004992DA /* RHTouchLockView.m */,
 				945B84971AA601A9004992DA /* AppDelegate.h */,
 				945B84981AA601A9004992DA /* AppDelegate.m */,
 				945B849A1AA601A9004992DA /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				945B849C1AA601A9004992DA /* ViewController.m in Sources */,
+				945B84BB1AA601D4004992DA /* RHTouchLockView.m in Sources */,
 				945B84991AA601A9004992DA /* AppDelegate.m in Sources */,
 				945B84961AA601A9004992DA /* main.m in Sources */,
 			);

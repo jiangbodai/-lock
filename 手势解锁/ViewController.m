@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "RHTouchLockView.h"
 
-@interface ViewController ()
+@interface ViewController ()<RHTouchLockViewDelegate>{
+    UILabel *_lable;
+}
 
 @end
 
@@ -16,12 +19,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _lable = [[UILabel alloc] initWithFrame:CGRectMake(0, 22, self.view.bounds.size.width, 40)];
+    _lable.textAlignment = NSTextAlignmentCenter;
+    _lable.textColor = [UIColor redColor];
+    
+    RHTouchLockView *lockView = [[RHTouchLockView alloc] initWithFrame:self.view.bounds];
+    lockView.backgroundColor = [UIColor grayColor];
+    lockView.Delegate = self;
+    lockView.time = 3.0f;
+    [lockView addSubview:_lable];
+    [self.view addSubview:lockView];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+#pragma mark RHTouchLockViewDelegate
+- (void)touchBeganLockView:(RHTouchLockView *)touchLockView path:(NSString *)path
+{
+
 }
 
+- (void)touchEndLockView:(RHTouchLockView *)touchLockView path:(NSString *)path{
+    _lable.text = path;
+}
 @end
