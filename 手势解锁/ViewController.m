@@ -31,6 +31,7 @@
     [self.view addSubview:lockView];
     
     NSLog(@"==========");
+    NSLog(@"==============");
     
 }
 
