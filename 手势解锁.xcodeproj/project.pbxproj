@@ -173,6 +173,7 @@
 				TargetAttributes = {
 					945B848F1AA601A9004992DA = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 6HE462P7XK;
 					};
 					945B84A81AA601AA004992DA = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -351,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6HE462P7XK;
 				INFOPLIST_FILE = "手势解锁/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6HE462P7XK;
 				INFOPLIST_FILE = "手势解锁/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +423,7 @@
 				945B84B51AA601AA004992DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		945B84B61AA601AA004992DA /* Build configuration list for PBXNativeTarget "手势解锁Tests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +432,7 @@
 				945B84B81AA601AA004992DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

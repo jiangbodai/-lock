@@ -30,6 +30,8 @@
     [lockView addSubview:_lable];
     [self.view addSubview:lockView];
     
+    NSLog(@"==========");
+    
 }
 
 
